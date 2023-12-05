@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ritush</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Ritush's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">Education</a></li>
+                    <li><a href="/">Skills</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+           
+        </nav>
+    </header>
+
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, my name is <span class="text-purple">Ritush</span>
+                 
+                <div>
+                    I'm UI/UX developer <br/>
+                    I know <span id="element"></span>
+                </div>
+                <div class="social">
+                    <li><a href="https://www.instagram.com/ritprzpt/"><img src="ig.png" alt="instgram"></a></li>
+                    <li><a href="https://www.linkedin.com/in/ritush-prajapati-15b0a9213/"><img src="lk.png" alt="linkedin"></a></li>
+                    <li><a href="https://github.com/Ritushprzpt"><img src="git.png" alt="Git"></a></li>
+                </div>
+            </div>
+
+            <div class="rightSection">
+                <img src="my_image.jpg" alt="My Image">
+            </div>
+        </section>
+        <hr/>
+
+        <section class="secondSection">
+            <span class="text-grey">What I have studied so far</span>
+            <h1>Education</h1>
+        </section>
+    </main>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+          strings: ['HTML','CSS','Javascript','PHP','Git'],
+          typeSpeed: 50,
+        });
+      </script>
+</body>
+</html>
