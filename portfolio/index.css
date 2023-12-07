@@ -85,6 +85,7 @@ nav ul li a:hover
 .secondSection {
     max-width: 80vw;
     margin: auto;
+    
 }
 
 .secondSection h1{
@@ -113,3 +114,78 @@ main hr{
    width: 65%;
 
 } 
+
+.secondSection .mainSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+
+}
+
+.secondSection .leftSection img{
+    width: 80px;
+    height: 80px;
+    margin: 1px 0;
+}
+
+.secondSection .rightSection img{
+    width: 80px;
+    height: 80px;
+    margin: 1px 0;
+}
+
+.secondSection .mainSection .box1 {
+    border: 1px solid rgb(84, 84, 215);
+}
+
+.secondSection .mainSection .box1:hover{
+    border: 1px solid rgb(84, 84, 215);
+    background-color: rgb(5, 5, 24);
+    
+}
+
+.secondSection .mainSection .box2 {
+    border: 1px solid rgb(79, 79, 205);
+}
+
+.secondSection .mainSection .box2:hover {
+    border: 1px solid rgb(79, 79, 205);
+    background-color: rgb(2, 2, 18);
+    
+}
+
+.secondSection .mainSection .box1 .box1text{
+    font-size: 1rem;
+    margin: 3px;
+}
+
+.secondSection .mainSection .box2 .box2text{
+    font-size: 1rem;
+    margin: 3px;
+}
+
+.thirdSection {
+    max-width: 80vw;
+    margin: auto;
+    
+}
+
+.thirdSection h1{
+    font-size: 2rem;
+}
+
+.thirdSection .image img{
+    margin: 15px 0;
+    width: 120px;
+}
+
+.forthSection {
+    max-width: 80vw;
+    margin: auto;
+    
+}
+
+.forthSection h1{
+    font-size: 2rem;
+}
